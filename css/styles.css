@@ -1,0 +1,188 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.colorNav {
+    background-color: #9096E5;
+    background-size: 100%;
+    height: 100px;
+}
+@media (min-width:0px) and (max-width:900px) {
+    .logomotion {
+        position: relative;
+        animation: logo 15s infinite;
+        width: 30%;
+    }
+    @keyframes logo {
+        0%   {top: 0%; left: 5%;}
+        10%  {top: 30%; left: 20%;}
+        20%   {top: 0%; left: 25%;}
+        30%  {top: 30%; left: 30%;}
+        40%   {top: 0%; left: 40%;}
+        50%  {top: 30%; left: 50%;}
+        60%   {top: 0%; left: 60%;}
+        70%  {top: 30%; left: 70%;} 
+        100% {top: 0%; left: 5%;}
+    }
+}
+@media (min-width:900px) and (max-width:2500px) {
+    .logomotion {
+        position: relative;
+        animation: logo 15s infinite;
+    }
+    @keyframes logo {
+        0%  {top: 0%; left: 18%;}
+        7%  {top: 50%; left: 18%;}
+        14%  {top: 0%; left: 35%;}
+        21%  {top: 50%; left: 35%;}
+        28%  {top: 0%; left: 52%;}
+        35%  {top: 50%; left: 52%;}
+        42%  {top: 0%; left: 68%;}
+        49%  {top: 50%; left: 68%;}
+        56%  {top: 0%; left: 83%;}
+        63%  {top: 50%; left: 83%;}
+        100% {top: 0%; left: 18%;}
+    }
+}
+
+.colorNav2 {
+    background-color:#9096E5;
+    height: 130px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.h2 {
+    font-family: "santelia-rough-two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    padding-top: 50px;
+}
+
+.colorNav21 {
+    background-color:#9096E5;
+    height: 100px;
+
+}
+@media (min-width:0px) and (max-width:900px) {
+    .colorNav2{
+        display: none;
+    }
+}
+.animationBtt1:hover {
+    -webkit-animation: zoomIn;
+    animation: zoomIn;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+.colorNav2Alt {
+    background-color: #9096E5;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+
+}
+@media (min-width:900px) and (max-width:2500px) {
+    .colorNav2Alt{
+        display: none;
+    }
+}
+.caja1 {
+    background-color: #5B2645;
+    background-image: url(../sources/Sunset2-02.png);
+    background-size: 120%;
+    height: 1000px;
+    background-repeat: no-repeat; 
+    padding-top: 50px;   
+}
+.cajaUno {
+    background-color:none ;
+    height: 350px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.collapse-body {
+    background-color: #9096E5;
+    background: position z -4px;;
+}
+.cajaDos {
+    background-color:none;
+    height: 350px;
+    padding-top: 50px;
+    padding-right: 40px;
+    text-align: justify;
+}
+@media (min-width:0px) and (max-width:900px) {
+    .cajaDos {
+        font-weight: 300; color:azure ;
+    }
+}
+@media (min-width:900px) and (max-width:2000px) {
+.helicoptermotion {
+    position: relative;
+    animation: helicopter 30s infinite;
+}
+@keyframes helicopter {
+        0%   {top: 0%; left: 20%;}
+        10%  {top: 50%; left: 20%;}
+        20%  {top: 0%; left: 20%;}
+        30%  {top: 40%; left: 20%;}
+        40%  {top: 0%; left: 20%;}
+        50%  {top: 50%; left: 20%;}
+        60%  {top: 0%; left: 20%;}
+        70%  {top: 40%; left: 20%;}
+        80%  {top: 0%; left: 20%;}
+        90%  {top: 50%; left: 20%;}
+        100% {top: 0%; left: 20%;}
+}
+}
+@media (min-width:0px) and (max-width:900px) {
+    .helicoptermotion {
+        position: relative;
+        animation: helicopter 30s infinite;
+    }
+    @keyframes helicopter {
+    0%   {top: 0%; left: 0%;}
+    15%  {top: 0%; left: 10%;}
+    30%  {top: 30%; left: 20%;}
+    45%  {top: 0%; left: 30%;}
+    60%  {top: 30%; left: 40%;}
+    100% {top: 0%; left: 0%;}
+}}
+.colorNav7 {
+    background-color:#5B2645;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;   
+   
+}
+.quienSoy {
+    animation-duration: 5s;
+    }
+
+.Habilidades {
+    animation-duration: 15s;
+}
+.colorNav8 {
+    text-align: center;
+}
+.scroll-buttons {
+    position: fixed;
+    right: 100px;
+    bottom: 40px;
+   
+  }
+.scroll-button {
+    display: block;
+    width: 50px;
+    height: 50px;
+    
+    text-align: center;
+    background-color: transparent;
+  }
